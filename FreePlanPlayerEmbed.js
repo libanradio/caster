@@ -7,4 +7,4 @@ var additionalParameter='';if(typeof cstrFreePlayerCoverPhoto=="undefined"||cstr
 else
 {additionalParameter+="&aa="+encodeURI(cstrFreePlayerCoverPhoto);}
 var s="//widgets.caster.fm/em_player.php?jsinit=true&uid="+cstrFreePlayerUid+"&t="+cstrFreePlayerTheme+"&c="+cstrFreePlayerColor+additionalParameter,i=document.createElement("iframe")
-i.frameBorder=0,i.width="20%",i.height="170px",i.id="cstrFreePlayerFrame",i.scrolling="no",i.allowtransparency="true",i.setAttribute("src",s),i.setAttribute("allowtransparency","true"),document.getElementById("cstrFreePlayerDiv").appendChild(i)}};cstrBindEvent(window,"load",cstrLoadFreePlayer);
+i.frameBorder=0,i.width="100%",i.height="70px",i.id="cstrFreePlayerFrame",i.scrolling="no",i.allowtransparency="true",i.setAttribute("src",s),i.setAttribute("allowtransparency","true"),document.getElementById("cstrFreePlayerDiv").appendChild(i)}};cstrBindEvent(window,"load",cstrLoadFreePlayer);
